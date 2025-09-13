@@ -1,6 +1,6 @@
 # projeto-amigo-secreto
 Venha descobrir seu amigo secreto
-🎁 Amigo Secreto
+🎁 Amigo Secreto:
 Este projeto é uma aplicação simples que permite inserir nomes de amigos em uma lista e, em seguida, realizar um sorteio aleatório para determinar quem é o amigo secreto.
 
 🚀 Funcionalidades
