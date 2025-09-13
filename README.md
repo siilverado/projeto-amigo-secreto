@@ -20,13 +20,6 @@ Tela inicial
 Lista preenchida
 Resultado do sorteio
 
-▶️ Como executar
-    1. Clone este repositório:
-       git clone https://github.com/seu-usuario/amigo-secreto.git
-    2. Acesse a pasta do projeto:
-       cd amigo-secreto
-    3. Abra o arquivo index.html em seu navegador.
-
 💡 Exemplo de uso
     1. Digite os nomes dos amigos.
     2. Clique em Adicionar para incluí-los na lista.
