@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Amigo Secreto</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background: #f7f7f7; }
+    header { background: #4169e1; color: white; padding: 20px; }
+    main { max-width: 500px; margin: 30px auto; padding: 20px; background: #fff4e6; border-radius: 10px; }
+    .input-area { display: flex; justify-content: center; margin-bottom: 15px; }
+    input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 20px 0 0 20px; }
+    button { padding: 10px 20px; border: none; cursor: pointer; }
+    .add-btn { background: #ccc; border-radius: 0 20px 20px 0; }
+    #sortear { margin-top: 15px; background: #ff6a3d; color: white; border-radius: 25px; font-weight: bold; }
+    #lista-amigos { list-style: none; padding: 0; margin-top: 20px; }
+    #lista-amigos li { background: white; margin: 5px 0; padding: 8px; border-radius: 5px; }
+    #resultado { margin-top: 20px; font-size: 20px; font-weight: bold; color: green; }
+  </style>
+</head>
+<body>
+  <header>
+  <img src="img/boneco.png" alt="Boneco com presente" style="max-width: 150px; display:block; margin: 0 auto 15px;">
+  <h1>Amigo Secreto</h1>
+</header>
+
+  <main>
+    <h2>Digite o nome dos seus amigos</h2>
+    <div class="input-area">
+      <input type="text" id="nome-amigo" placeholder="Digite um nome">
+      <button class="add-btn" id="btn-adicionar">Adicionar</button>
+    </div>
+
+    <ul id="lista-amigos"></ul>
+
+    <button id="btn-adicionar">Adicionar</button>
+<button id="sortear">Sortear amigo</button>
+<button id="btn-limpar">Limpar lista</button>
+<div id="resultado"></div>
+
+  </main>
+
+  <!-- Importando o JS separado -->
+  <script src="app.js"></script>
+</body>
+</html>
